@@ -7,7 +7,7 @@ btn.addEventListener('click', function(){
     if (inputField.value.trim().length === 0) return;{
 
     const item = document.createElement('li');
-    item.innerText =inputField.value();
+    item.innerText =inputField.value;
     item.classList.add('toDoAddet');
     inputField.value = '';
     toDo.appendChild(item);
