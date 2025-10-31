@@ -1,0 +1,74 @@
+.header, .container {
+display: flex;
+justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    background: linear-gradient(to left, #703B3B, purple, #A18D6D, #E1D0B3, #9BB4C0);
+    -webkit-text-fill-color: transparent ;
+    -webkit-background-clip: text;
+}
+
+.inputField {
+    padding: 10px;
+    width: 40%;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 20px;
+    background: #9BB4C0 ;
+    border: none;
+    border-radius: 10px;
+}
+
+body  {
+    background-image: url(./img/dominik-hofbauer-nzus-1oiN0A-unsplash.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    background-color: #9BB4C0;
+}
+
+.toDoAddet {
+    background: #9BB4C0;
+    list-style-type: none;
+    height: 60px;
+    width: 50%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    border-bottom: 1px solid wheat;
+    border-radius: 10px;
+    margin: 5px;
+    padding-top: 18px;
+}
+
+.toDo {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.newClass {
+    background: #305669;
+    color: black;
+    font-weight: bold;
+    text-decoration: line-through;
+    transition: all 2s ease;
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 30px;
+    }
+}
